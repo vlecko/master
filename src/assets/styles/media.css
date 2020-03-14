@@ -1,0 +1,22 @@
+@media screen and (max-width: 570px) {
+  .nav{
+    display: grid;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav{
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1400px){
+  .sub-head{
+    margin-left: 0; 
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 599px){
+  .block-guide{
+  margin-left: 75px;
+  }
+}

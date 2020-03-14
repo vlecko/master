@@ -1,0 +1,1 @@
+"use strict";var age=16;if(18<=(age=prompt("gfdgdffgegbk"))){var message="access permited";console.log(message)}else{var _message="access denied";console.log(_message)}
