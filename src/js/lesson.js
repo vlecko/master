@@ -1,58 +1,20 @@
-    // const testConst ='34';
+    let counter = 9
+    while (counter >= 0){
+        console.log(counter);
+        counter = counter - 1;
+        // if (counter %2===0) {
+        // console.log('hi',counter);
 
-    // console.log(testConst);
-    // const x=7
-    //     if (x<7){
-    //         console.log('1')
-    //     }
-    //     else{
-    //         console.log('2');
-    //     if(x==7)
-    //         console.log('3')
-    //     }
-    //     let instr = 2
+        // } else {
+        //     console.log('li',-counter);
+        // }    
+        
+    }
+    console.log('fff',counter);
 
-    // switch (instr) {
-    //     case 2:
-    //         console.log('tandem');
-    //         break;
-
-    //     case 1:
-    //         console.log('single');
-    //         break;
-    
-    //     default:
-    //         console.log('ffa');
-    //         break;
-    // }
-    // const number = +2
-    // if (number ===0){
-    //     console.log('f');
-    //     alert('вы вывели число 1');
-    // }
-    // if (number ===1){
-    //     console.log('ff');
-    //     alert('вы вывели число 1');
-    // }
-    // if (number ===2 ){
-    //     console.log('ffa');
-    //     alert('вы вывели число 1');
-    // }
-    // function showMessage() {
-    //     alert( 'Всем привет!' );
-    //   }
-      
-    //   showMessage();
-    //   showMessage();
-
-    // let counter = 10
-    // while (counter >= 1){
-    //     counter-=1;
-    //     if (counter %2===0) {
-    //     console.log(counter);
-
-    //     } else {
-    //         console.log(-counter);
-    //     }    
-    // }
-    
+    // let counter =3
+    // let i = counter-1; 
+    //     counter=i; 
+    //     counter = counter - 1;
+    //     console.log('fff',counter);
+    //     console.log('i',i);
