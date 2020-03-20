@@ -1,20 +1,17 @@
-    let counter = 9
-    while (counter >= 0){
-        console.log(counter);
-        counter = counter - 1;
-        // if (counter %2===0) {
-        // console.log('hi',counter);
+    let counter = 0
+    while (counter <= 9){
+        // console.log(counter);
+        const ood = counter % 2;
+        const condition = ood ===0;
+         if (condition) {
+        console.log('hi',counter);
 
-        // } else {
-        //     console.log('li',-counter);
-        // }    
-        
+        } else {
+            const negativ = 0-counter;
+            console.log('li',negativ);
+        }    
+        counter = counter +1;
     }
     console.log('fff',counter);
 
-    // let counter =3
-    // let i = counter-1; 
-    //     counter=i; 
-    //     counter = counter - 1;
-    //     console.log('fff',counter);
-    //     console.log('i',i);
+    
