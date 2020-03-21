@@ -7,7 +7,7 @@
         console.log('hi',counter);
 
         } else {
-            const negativ = 0-counter;
+            const negativ = -counter;
             console.log('li',negativ);
         }    
         counter = counter +1;
