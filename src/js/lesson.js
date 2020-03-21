@@ -1,8 +1,7 @@
     let counter = 0
     while (counter <= 9){
-        // console.log(counter);
         const ood = counter % 2;
-        const condition = ood ===0;
+        const condition = ood ===1;
          if (condition) {
         console.log('hi',counter);
 
@@ -14,4 +13,5 @@
     }
     console.log('fff',counter);
 
+   
     
