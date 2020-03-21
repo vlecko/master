@@ -1,5 +1,5 @@
-    let counter = 0
-    while (counter <= 9){
+    let counter = 1
+    while (counter <= 10){
         const ood = counter % 2;
         const condition = ood ===1;
          if (condition) {
