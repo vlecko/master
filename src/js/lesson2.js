@@ -11,10 +11,10 @@
 // } while (counter >=1);
 
 
+ 
 for (let i = 1; i <= 100; i++) {
-    if (i % 10 == 0) {
-      console.log( i );
-    }
+   if (i % 2 == 0) {
+     console.log( i );
+   }
 }
-  
 
