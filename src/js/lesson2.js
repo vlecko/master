@@ -1,5 +1,5 @@
-// for (let index = 1; index <= 10; index=index+1) {
-//     console.log(index)  
+// for (let index = 1; index = 1; index=index+0) {
+//     console.log(index=)  
 // }
 // console.log("index")
 
@@ -11,8 +11,10 @@
 // } while (counter >=1);
 
 
-for (let i = 2; i <= 100; i++) {
-    if (i % 2 == 0) {
+for (let i = 1; i <= 100; i++) {
+    if (i % 10 == 0) {
       console.log( i );
     }
-  }
+}
+  
+
