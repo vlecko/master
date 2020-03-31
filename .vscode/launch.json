@@ -5,13 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "runtimeExecutable": "/Users/admin/.nvm/versions/node/v12.16.1/bin/node",
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/gulpfile.js"
+            "program": "${workspaceFolder}/test.js"
         }
     ]
 }

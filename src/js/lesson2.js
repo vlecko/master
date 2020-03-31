@@ -1,4 +1,5 @@
-    //  const user = {
+        'use strict';
+   //  const user = {
         
     //   };
     //     console.log('object ', user);
@@ -12,12 +13,12 @@
 
     // не понятно !!!!
 
-        let arr = [4,7,11,44,];
-        for (let i = 0; i < arr.length; i++) { 
-        const element =  arr [i];
+        // let arr = [4,7,11,44,];
+        // for (let i = 0; i < arr.length; i++) { 
+        // const element =  arr [i];
 
-        console.log(element)
-        }
+        // console.log(element)
+        // }
 
     // не совсем помял !!!!!!!
 
@@ -36,8 +37,75 @@
     //     };
         
     //     console.log ( sumSalaries(salaries) );
+    
+    // var data = [
+    //     {
+    //     firstName: 'Ashton',
+    //     lastName: 'Kutcher',
+    //     age: 40
+    //     }, {
+    //     firstName: 'Bradley',
+    //     lastName: 'Pitt',
+    //     age: 54
+    //     }, {
+    //     firstName: 'Hannah',
+    //     lastName: 'Dakota',
+    //     age: 24
+    //     }
+    //     ];
+    //     let name = prompt ('Как тебя завут?','');
+       
+    //     console.log(name);
 
+        //    function hello(name){
+        //        console.log(name);
+        //    }
+        //    hello ('Hello');
    
+        // function dump(ful){ !!!!
+        // return  ful;
+        // }
+        // let a= ('f')
+        // console.log(9)
 
         
+        
+    //   function dron(curent) {
+        
+    //     let steps = 0;
+    //     let maxValue = start;
+    //     while (curent != 1) {
+    //     if (curent > maxValue) maxValue = curent;
+    //     if (curent % 2 === 0) {
+    //         const oldVal = curent;
+    //         curent = curent / 2;
+    //         console.log(`step ${steps + 1}: ${oldVal}/2 = ${curent}`);
+    //     } else {
+    //         const oldVal = curent;
+    //         curent = curent * 3 + 1;
+    //         console.log(`step ${steps + 1}: ${oldVal}*3 + 1 = ${curent}`);
+    //     }
+       
+    //     steps++;
+    //     }
 
+    //     console.log('maxValue', maxValue);
+    //     console.log('steps', steps);
+    // }
+    // dron(9)
+    // dron(5)
+
+//     const help = '10 * 300 * x'
+
+//    const   arr=help.split('*',1);
+
+//         arr.push('2')
+
+//     console.log(arr)
+  
+// function getRandomNumber() {
+//    let a = Math.floor(Math.random() * 10);
+
+// }
+
+// console.log(getRandomNumber())
