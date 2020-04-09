@@ -1,1 +1,1 @@
-"use strict";var message;message="Hello";
+"use strict";

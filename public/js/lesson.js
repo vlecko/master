@@ -1,1 +1,1 @@
-"use strict";var rublesPerDollar=60,dollarsCount=62.5,rublesCount=dollarsCount*rublesPerDollar;console.log(rublesCount);
+"use strict";var company="";"ECMAScript"==company?console.log("Верно"):console.log("Неверно");

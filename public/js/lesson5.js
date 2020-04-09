@@ -1,0 +1,1 @@
+"use strict";function min(e,n){return e<n?e:n}for(var vil=[[4,6],[5,7],[10,8],[11,13],[14,16]],index=0;index<vil.length;index++){var element=vil[index],t1=element[0],t2=element[1],min1=min(t1,t2);console.log(min1)}

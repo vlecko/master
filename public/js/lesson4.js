@@ -1,0 +1,1 @@
+"use strict";var user={name:"Vlad",age:25};console.log(user.name);

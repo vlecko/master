@@ -17,7 +17,7 @@
 //     };
         
     // const array = { 
-    //     '0': один, 
+    //        '0': один, 
 //     //     '1': два,
 //     //     '2': три,
 //     //     length: 3,
@@ -42,89 +42,22 @@
 // //    const min2= min(2,3);
 // //    console.log(min2);
 // //    console.log(min(4,3))
-
 //    let vil =[[4,6],[5,7],[10,8],[11,13],[14,16]]
 //         for (let index = 0; index < vil.length; index++) {
 //             const element = vil[index];
-//             // const t1=element [0]
-//             // const t2 = element[1]
+//             const t1=element [0]
+//             const t2 = element[1]
 //             const min1= min (t1,t2)
             
 //             console.log(min1)
-        // }
-        let vil = [
-            [4, 6],
-            [5, 7],
-            [10, 8],
-            [11, 13],
-            [14, 16]
-          ];
-          
-          {
-            const element = vil[0];
-            const t1 = element[0];
-            const t2 = element[1];
-            let min1;
-            if (t1 < t2) {
-              min1 = t1;
-            } else {
-              min1 = t2;
-            }
-          
-            console.log(min1);
-          }
-          {
-            const element = vil[1];
-            const t1 = element[0];
-            const t2 = element[1];
-            let min1;
-            if (t1 < t2) {
-              min1 = t1;
-            } else {
-              min1 = t2;
-            }
-          
-            console.log(min1);
-          }
-          
-          {
-            const element = vil[2];
-            const t1 = element[0];
-            const t2 = element[1];
-            let min1;
-            if (t1 < t2) {
-              min1 = t1;
-            } else {
-              min1 = t2;
-            }
-          
-            console.log(min1);
-          }
-          {
-            const element = vil[3];
-            const t1 = element[0];
-            const t2 = element[1];
-            let min1;
-            if (t1 < t2) {
-              min1 = t1;
-            } else {
-              min1 = t2;
-            }
-          
-            console.log(min1);
-          }
-          {
-            const element = vil[4];
-            const t1 = element[0];
-            const t2 = element[1];
-            let min1;
-            if (t1 < t2) {
-              min1 = t1;
-            } else {
-              min1 = t2;
-            }
-          
-            console.log(min1);
-          }
+//         }
+
+
+    // function toZero(arr) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //       arr[i] = arr[i].toString().replace(/0/g, "zero");
+    //     }
+    //     return arr;
+    //   }
+      
         
-       

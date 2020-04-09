@@ -1,0 +1,1 @@
+"use strict";function sayHi(){console.log("Привет")}setTimeout(sayHi,2e3);
