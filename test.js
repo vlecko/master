@@ -21,9 +21,39 @@
     // console.log( i ); // простое число
     // } 
         
-    function isEven(n) {
-        return n % 2 == 0;
-      }
-    let massiv = [7,8,10,14,16,19,20]; 
-    console.log(isEven (massiv));
+    // function isEven(n) {
+    //     return n % 2 == 0;
+    //   }
+    // let massiv = [7,8,10,14,16,19,20]; 
+    // console.log(isEven (massiv));
     
+//     function calc(hours, money) {
+//     const a1 = hours * money;
+    
+//     return a1
+// }
+// console.log(calc(1,30,20))
+// function number(arr) {
+//     let sum = 0;
+//     for (const x of arr) {
+//         if(x % 2 ===0)  
+//         if (x>0) {
+//         sum = sum+x;      
+//         }        
+//     }    
+//     return sum;    
+// }
+// const array=[2,4,6,8,2,9,-11]
+// console.log(number(array));
+function number(arr) {
+    let sum = 0;
+    for (let x= 0; x< arr.length; x++) {
+        if(x % 2 ===0)  
+        if (x>0) {
+        sum = sum+x;      
+        }        
+    } 
+    return sum;    
+}
+const array=[2,4,6,8,2,9,11]
+console.log(number(array));

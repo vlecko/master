@@ -26,3 +26,10 @@ let fn3 =document.getElementById('threeAge')
  setTimeout(() => document.body.style.background = '', 3000);
  
 
+let animal ={
+    eats: true
+};
+let rabbit ={
+    jumps:true
+};
+rabbit.eat
