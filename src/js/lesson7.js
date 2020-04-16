@@ -1,18 +1,4 @@
-// function min(v1,v2){
-//     if (v1<v2){
-//      return v1;
-//     }
-//     else{
-//      return v2;
-//     }
-    
-// }
-// const minmax = [123,457,344];
-//     let max = arr [0];
-//     if (arr [i]>let) {
-//           let max = arr[i]
-//     }
-      
+'use strict'
   
 
 //    console.log(minmax)
@@ -46,3 +32,13 @@
 //   console.log( pockets.pen ); 
 //   console.log( bed.glasses ); 
 //   console.log( table.money );
+
+const arr =[0, 1, 5];
+
+arr.forEach((el) =>console.log(el))
+const newArr = arr.map(addOne)
+ function addOne(el) {
+     
+    return el + 1;
+ }
+ console.log(newArr);

@@ -1,19 +1,17 @@
-    'use strict';
-   
-// let company =('Какое «официальное» название JavaScript?','')
-//     if (company =='ECMAScript') {
-//         console.log('Верно');
+let company =('Какое «официальное» название JavaScript?','') задали переменную строку  
+//     if (company =='ECMAScript') {  задали сровнение  если верно то выводим на экран 
+//         console.log('Верно');   верно
 //     } else {
-//         console.log('Неверно');
-//     }
-        // let velue = ('Выведи число',);
-        //     if (velue > 0) {
-        //     console.log(1);
-        // } else if(velue < 0) {
+//         console.log('Неверно'); если нет то  выводим на экран  Неверно 
+//     
+        // let velue = ('Выведи число',); задаем переменную 
+        //     if (velue > 0) { тогда сравниваем если больше значение 0 то выводим 1
+        //     console.log(1); 
+        // } else if(velue < 0) { если значение меньше 0 то выводим -1
         //     console.log(-1)
 
         // } else {
-        //     console.log (0)
+        //     console.log (0) в остольных случиех выводим 0
         // }
         
        
@@ -24,10 +22,10 @@
         //         console.log()
         //     }
 
-        // let i = 0
-        // while (i <3 ){
-        // console.log(i)
-        // i++;
+        // let i = 0 задаем переменную 0
+        // while (i <3 ){ потом сравнивоем ее 
+        // console.log(i) выводим в консоль 
+        // i++; и плюсуем  к ней 1
         // }
     
     //     let i = 0;  
@@ -259,68 +257,170 @@
 // }
 // console.log(calc2(1,30,20))
     
-
-//     твоя программа должна принимать массив значений [minutes, minutes, minutes] 
-// для каждого значения вызывать ф-цию преобразования часов и минут в часы (для 19 минут результат примерно 0.3)
-// суммировать все полученные результаты
-// для получившийся цифры вызывать метод рассчета стоимости
-// выводить финальный результат в консоль
-// для значений [17,5,4,9,25,19,16,4,7] и стоимость 50р за час результат 88,333333333
-// это тестовые данные для ф-ции. И итоговая стоимость)
-
-
 //  function time(minutes,minutes1,minutes2,minutes3,minutes4,minutes5,minutes6,minutes7,minutes8) {
 //     const p = minutes+minutes1+minutes2+minutes3+minutes4+minutes5+minutes6+minutes7+minutes8;
 //     const a = p / 60
 //     const b = a * 40;
 //     return b;
 //  }
-//  console.log(time(17,5,4,9,25,19,16,4,7));
+//  console.log(time(17,5,4,9,25,19,16,4,7)); 
 
-// В последовательности целых чисел определить сумму по- ложительных четных чисел.
-   
-// function number(arr) {
-    
-//     for (const x of arr) {
-//         if(x % 2 ===0)  
-//         if (x>0) {
-          
-//       return x;  
-//         }        
-//     }    
-       
-// }
-// const array=[2,4,6,8,2,9,-11]
-// console.log(number(array));
 
-// function number(arr) {
-//     let sum = 0;
-//     for (let x= 0; x< arr.length; x++) {
-//         if(x % 2 ===0)  
-//         if (x>0) {
-//         sum = sum+x;      
-//         }        
-//     } 
-//     return sum;    
-// }
-// const array=[2,4,6,8,2,9,-11]
-// console.log(number(array));
- 
-// В последовательности целых положительных чисел опреде- лить максимальное четное число и его порядковый номер.
-// function number(arr) {
-//     let sum = 0;
-//     for (const x of arr) {
-//         if (x % 2 === 0) {
-//         if (x>0) {
-//            sum = sum = x; 
-//         }
-//         }
-//         return sum;
-//     }
+// let test = 7;
+// if (test > 6){
+//     console.log ('test:', test);
+// };
+
+
+// let index = 1;
+//     while (index < array.length) { 
+//         index = index +1;
+//         console.log(array [index -1]);
+//         // console.log(index);
+//     };
         
+    // const array = { 
+    //        '0': один, 
+//     //     '1': два,
+//     //     '2': три,
+//     //     length: 3,
+//     //     }   
+        
+'use strict'
+// //     function show(val,val1){
+// //         console.log(val,val1)
+// //     }
+// //    show(7)
+// //    show('Hello', 'would') 
+
+//    function min(v1,v2){
+//        if (v1<v2){
+//         return v1;
+//        }
+//        else{
+//         return v2;
+//        }
+       
+//    }
+// //    const min2= min(2,3);
+// //    console.log(min2);
+// //    console.log(min(4,3))
+//  
+
+
+    // function toZero(arr) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //       arr[i] = arr[i].toString().replace(/0/g, "zero");
+    //     }
+    //     return arr;
+    //   }
+
+       //  const user = {
+        
+    //   };
+    //     console.log('object ', user);
+    //    user.name = 'John'; 
     
+    // user.surname = 'Smith';
     
+    // user.name = 'Pete';
+    // delete user.name;
+    // console.log( user);
+
+    // не понятно !!!!
+
+        // let arr = [4,7,11,44,];
+        // for (let i = 0; i < arr.length; i++) { 
+        // const element =  arr [i];
+
+        // console.log(element)
+        // }
+
+
+    //     function sumSalaries(salaries) { 
+    //     let sum = 0;
+    //     for (let salary of Object.values(salaries)) {
+    //       sum += salary;
+    //     }
+      
+    //     return sum; 
+    //   }
+    //     let salaries = {
+    //         John: 100,
+    //         Ann: 160,
+    //         Pete: 130,
+    //     };
+        
+    //     console.log ( sumSalaries(salaries) );
+    
+    // var data = [
+    //     {
+    //     firstName: 'Ashton',
+    //     lastName: 'Kutcher',
+    //     age: 40
+    //     }, {
+    //     firstName: 'Bradley',
+    //     lastName: 'Pitt',
+    //     age: 54
+    //     }, {
+    //     firstName: 'Hannah',
+    //     lastName: 'Dakota',
+    //     age: 24
+    //     }
+    //     ];
+    //     let name = prompt ('Как тебя завут?','');
+       
+    //     console.log(name);
+
+        //    function hello(name){
+        //        console.log(name);
+        //    }
+        //    hello ('Hello');
+   
+        // function dump(ful){ !!!!
+        // return  ful;
+        // }
+        // let a= ('f')
+        // console.log(9)
+
+        
+        
+    //   function dron(curent) {
+        
+    //     let steps = 0;
+    //     let maxValue = start;
+    //     while (curent != 1) {
+    //     if (curent > maxValue) maxValue = curent;
+    //     if (curent % 2 === 0) {
+    //         const oldVal = curent;
+    //         curent = curent / 2;
+    //         console.log(`step ${steps + 1}: ${oldVal}/2 = ${curent}`);
+    //     } else {
+    //         const oldVal = curent;
+    //         curent = curent * 3 + 1;
+    //         console.log(`step ${steps + 1}: ${oldVal}*3 + 1 = ${curent}`);
+    //     }
+       
+    //     steps++;
+    //     }
+
+    //     console.log('maxValue', maxValue);
+    //     console.log('steps', steps);
+    // }
+    // dron(9)
+    // dron(5)
+
+//     const help = '10 * 300 * x'
+
+//    const   arr=help.split('*',1);
+
+//         arr.push('2')
+
+//     console.log(arr)
+  
+// function getRandomNumber() {
+//    let a = Math.floor(Math.random() * 10);
+
 // }
 
-// const array=[2,4,6,8,2,9,-11]
-// console.log(number(array));
+// console.log(getRandomNumber())
