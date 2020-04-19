@@ -33,12 +33,22 @@
 //   console.log( bed.glasses ); 
 //   console.log( table.money );
 
-const arr =[0, 1, 5];
+// const arr =[0, 1, 5];
 
-arr.forEach((el) =>console.log(el))
-const newArr = arr.map(addOne)
- function addOne(el) {
+// arr.forEach((el) =>console.log(el))
+// const newArr = arr.map(addOne)
+//  function addOne(el) {
      
-    return el + 1;
- }
- console.log(newArr);
+//     return el + 1;
+//  }
+//  console.log(newArr);
+
+// let promise = new Promise (function(resolve,reject){
+//     console.log('wrfw');
+//     setTimeout (()=>('mom'),3000);
+// });
+// console.log('promis', promise);
+// promise.then(function(a){
+//     console.log(a);
+// });
+// console.log('will????')

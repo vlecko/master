@@ -1,4 +1,4 @@
-let company =('Какое «официальное» название JavaScript?','') задали переменную строку  
+// let company =('Какое «официальное» название JavaScript?','') задали переменную строку  
 //     if (company =='ECMAScript') {  задали сровнение  если верно то выводим на экран 
 //         console.log('Верно');   верно
 //     } else {
@@ -286,7 +286,7 @@ let company =('Какое «официальное» название JavaScript
 //     //     length: 3,
 //     //     }   
         
-'use strict'
+
 // //     function show(val,val1){
 // //         console.log(val,val1)
 // //     }

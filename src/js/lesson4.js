@@ -1,36 +1,154 @@
-'use strict'
-let user = [
-    {
-        firstName: 'Karpovich ',
-        lestName: 'Dima',
-        age: 28
-    }, {
-        firstName: 'Benedik ',
-        lestName: 'Vadim ',
-        age: 25
-    }, {
-        firstName: ' Kravchuk ',
-        lestName: 'Misha',
-        age: 26
-    },
-];
-let fn1 =document.getElementById('oneFirst')
-let fn2 =document.getElementById('twoLast')
-let fn3 =document.getElementById('threeAge')
- fn1.innerHTML = 'Karpovich'
- fn2.innerHTML = 'Benedik'
- fn3.innerHTML = 'Kravchuk'
-   
- console.log(fn1)
+//  сортировка в обратном порядке
+// let p =[1,4,7,10,1,-11];
+// p.sort((a,b) => b-a);
+// console.log(p)
 
- document.body.style.background = 'purple','red'; 
- setTimeout(() => document.body.style.background = '', 3000);
+// скапировать и отсортировать массив 
+
+// function copySorted(arr) {
+//     return arr.slice().sort();
+//   }
+  
+//   let arr = ["HTML", "JavaScript", "CSS"];
+  
+//   let sorted = copySorted(arr);
+  
+// console.log( sorted ); // CSS, HTML, JavaScript
+// console.log( arr ); // HTML, JavaScript, CSS (без изменений)
+
+// Трансформировать в массив имён
+// let vasya = { name: "Вася", age: 25 };
+// let petya = { name: "Петя", age: 30 };
+// let masha = { name: "Маша", age: 28 };
+
+// let users = [ vasya, petya, masha ];
+
+// let names = users.map(item => item.name);
+
+//  console.log( names );
+
+// Трансформировать в объекты
+// let vasya = { name: "Вася", surname: "Пупкин", id: 1 };
+// let petya = { name: "Петя", surname: "Иванов", id: 2 };
+// let masha = { name: "Маша", surname: "Петрова", id: 3 };
+
+// let users = [ vasya, petya, masha ];
+
+// let usersMapped = users.map(user => ({
+//   fullName: `${user.name} ${user.surname}`,
+//   id: user.id
+// }));
+
+// console.log( usersMapped[0].id ); 
+// console.log( usersMapped[0].fullName );
+
+// Отсортировать пользователей по возрасту
+
+// function sortByAge(arr) {
+//     arr.sort((a, b) => a.age > b.age ? 1 : -1);
+//   }
+  
+//   let vasya = { name: "Вася", age: 25 };
+//   let petya = { name: "Петя", age: 30 };
+//   let masha = { name: "Маша", age: 28 };
+  
+//   let arr = [ vasya, petya, masha ];
+  
+//   sortByAge(arr);
+  
  
+//   console.log(arr[0].age); 
+//   console.log(arr[1].age); 
+//   console.log(arr[2].age);
 
-let animal ={
-    eats: true
-};
-let rabbit ={
-    jumps:true
-};
-rabbit.eat
+// Перемешайте массив
+// function shuffle(array) {
+//     array.sort(() => Math.random() - 0.5);
+//   }
+  
+//   let arr = [1, 2, 3];
+//   shuffle(arr);
+//   console.log(arr);
+
+// function shuffle(array) {
+//     array.sort(() => Math.random() - 0.5);
+//   }
+  
+//   // подсчёт вероятности для всех возможных вариантов
+//   let count = {
+//     '123': 0,
+//     '132': 0,
+//     '213': 0,
+//     '231': 0,
+//     '321': 0,
+//     '312': 0
+//   };
+  
+//   for (let i = 0; i < 1000000; i++) {
+//     let array = [1, 2, 3];
+//     shuffle(array);
+//     count[array.join('')]++;
+//   }
+  
+//   // показать количество всех возможных вариантов
+//   for (let key in count) {
+//     console.log(`${key}: ${count[key]}`);
+//   }
+ 
+// Получить средний возраст
+
+// function getAverageAge(users) {
+//     return users.reduce((prev, user) => prev + user.age, 0) / users.length;
+//   }
+  
+//   let vasya = { name: "Вася", age: 25 };
+//   let petya = { name: "Петя", age: 30 };
+//   let masha = { name: "Маша", age: 29 };
+  
+//   let arr = [ vasya, petya, masha ];
+  
+//   console.log( getAverageAge(arr) );
+
+// Оставить уникальные элементы массива
+
+// function unique(arr) {
+//     let result = [];
+  
+//     for (let str of arr) {
+//       if (!result.includes(str)) {
+//         result.push(str);
+//       }
+//     }
+  
+//     return result;
+//   }
+  
+//   let strings = ["кришна", "кришна", "харе", "харе",
+//     "харе", "харе", "кришна", "кришна", ":-O"
+//   ];
+  
+//   console.log( unique(strings) ); 
+
+
+function randomInteger(min, max) {
+   let rand = min + Math.random() * (max  - min );
+    return  Math.floor(rand);              
+         }   
+  console.log( randomInteger(3, 10) );
+
+  function getArenet(length, maxvalue) {
+      const newArray = new Array (length);
+    
+      for (let index = 0; index < length; index++) {
+        newArray [index] = randomInteger(0,maxvalue) 
+    
+      }
+      return newArray ;
+  }
+  console.log(getArenet(5,100))
+
+//   1) написать вторую функцию генератор, что бы она создавала числа в диапозоне от -max до max (было от 0 до max)
+// 2) сгенерировать последовательность из 10 чисел от 0 до 20. Найти среднее арифметическое этих чисел (разделить сумму всех чисел на их колличество)
+// 3)  сгенерировать последовательность из 2000 элементов от -100 до 100, найти среднее арифметическое для них
+// 4) написать функцию замены каждого элемента массива с нечетным индексом на ноль
+// 5) Создать второй массив из четных элементов первого массива
