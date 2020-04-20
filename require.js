@@ -1,26 +1,15 @@
-const data = require('./expo');
-let x = data -10;
-console.log("x", x)
-    for (let index = 4; index >0; index = index-1) {
-     x = x*index;  
-           
-    }
-let array =[0,2,3]
+const data = require("./expo");
+console.log(data);
 
- 
-    for (let index = 0; index < array.length; index++) {
-     array [index] = array[index]+1;
-        console.log(array[index])
-    }
-    
-    console.log("array", array)
+function isEven(num) {
+  return num % 2 === 0;
+}
 
-let array = new Array (3)
+const isDataEven = isEven(data);
+console.log("isDataEven", isDataEven);
 
- 
-    for (let index = 0; index < array.length; index++) {
-     array [index] = x+1;
-        console.log(array[index])
-    }
-    
-    console.log("array", array)
+function isNum(num) {
+  const numType = typeof num;
+  return numType === "number";
+}
+// console.log(isNum(4))
