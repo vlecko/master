@@ -130,25 +130,63 @@
 //   console.log( unique(strings) ); 
 
 
-function randomInteger(min, max) {
-   let rand = min + Math.random() * (max  - min );
-    return  Math.floor(rand);              
-         }   
-  console.log( randomInteger(3, 10) );
+// function randomInteger(min, max) {
+//    let rand = min + Math.random() * (max  - min );
+//     return  Math.floor(rand);              
+//          }   
+// //   console.log( randomInteger(3, 10) );
 
-  function getArenet(length, maxvalue) {
-      const newArray = new Array (length);
+//   function getArenet(length, maxvalue) {
+//       const newArray = new Array (length);
     
-      for (let index = 0; index < length; index++) {
-        newArray [index] = randomInteger(0,maxvalue) 
+//       for (let index = 0; index < length; index++) {
+//         newArray [index] = randomInteger(-maxvalue,maxvalue) 
     
-      }
-      return newArray ;
-  }
-  console.log(getArenet(5,100))
+//       }
+//       return newArray ;
+//   }
+//   console.log(getArenet(2,100))
+
+
 
 //   1) написать вторую функцию генератор, что бы она создавала числа в диапозоне от -max до max (было от 0 до max)
-// 2) сгенерировать последовательность из 10 чисел от 0 до 20. Найти среднее арифметическое этих чисел (разделить сумму всех чисел на их колличество)
-// 3)  сгенерировать последовательность из 2000 элементов от -100 до 100, найти среднее арифметическое для них
-// 4) написать функцию замены каждого элемента массива с нечетным индексом на ноль
-// 5) Создать второй массив из четных элементов первого массива
+
+// function randomInteger(min, max) {
+//     let rand = min + Math.random() * (max  - min );
+//      return  Math.floor(rand);              
+//           }   
+//  //   console.log( randomInteger(3, 10) );
+ 
+//    function getArenet(length, maxvalue) {
+//        const newArray = new Array (length);
+     
+//        for (let index = 0; index < length; index++) {
+//          newArray [index] = randomInteger(-maxvalue,maxvalue) 
+     
+//        }
+//        return newArray ;
+//    }
+//    console.log(getArenet(5,5))
+ 
+// // 2) сгенерировать последовательность из 10 чисел от 0 до 20. Найти среднее арифметическое этих чисел (разделить сумму всех чисел на их колличество)
+
+// // 3)  сгенерировать последовательность из 2000 элементов от -100 до 100, найти среднее арифметическое для них
+
+ function randomInteger(min, max) {
+        let rand = min + Math.random() * (max  - min );
+         return  Math.floor(rand);              
+              }   
+     //   console.log( randomInteger(3, 10) );
+     
+       function getArenet(length, maxvalue) {
+           const newArray = new Array (length);
+         
+           for (let index = 0; index < length; index++) {
+             newArray [index] = randomInteger(-maxvalue,maxvalue) ;
+            
+         
+           }
+           return newArray ;
+       }
+       console.log(getArenet(2000,100))
+
