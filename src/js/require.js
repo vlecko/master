@@ -29,4 +29,11 @@ function chkNum(number) {
   }
   return x && y;
 }
-console.log(chkNum(data));
+
+function calc(num) {
+  if (chkNum(num)) {
+    return num / 2;
+  }
+  return num;
+}
+console.log(calc(data));
