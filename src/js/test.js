@@ -1,13 +1,15 @@
-'use strict';
-// alert ('test');
+"use strict";
 
-// let $ = 5; 
-// let _ = 8; 
-// alert($ + _);
-
-// let age = prompt('Сколько тебе лет?',);
-// alert(`поздравляем, вам ${age} полных лет`);
-
-// let name =prompt ('Как тебя завут?','');
-// alert(name);
-
+function naesa(p) {
+  let num = p;
+  while (num !== 1) {
+    if (num % 2 === 0) {
+      num = num / 2;
+    } else {
+      num = num * 3 + 1;
+    }
+  }
+  return num;
+}
+const x = 2;
+console.log(naesa(x));
